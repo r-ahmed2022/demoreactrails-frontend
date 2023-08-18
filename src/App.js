@@ -2,8 +2,8 @@ import './App.css';
 import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Splash from './components/Splash';
-import Registration from './components/Registration';
-import Login from './components/Login';
+import Registration from './auth/Registration';
+import Login from './auth/Login';
 function App() {
   useEffect(() => {
 
